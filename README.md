@@ -42,6 +42,10 @@ pytest
 
 The sample files in `samples/` contain deliberate faults (missing VLAN on a trunk, native VLAN mismatch, a down EtherChannel member) and the tests assert each one is caught.
 
+## Try it on a lab
+
+`lab/` has two switch configs that reproduce the sample faults, plus steps for capturing real output from Packet Tracer, GNS3 or EVE-NG. See [lab/README.md](lab/README.md).
+
 ## Notes
 
 - Targets Cisco IOS output (`cisco_ios`).
