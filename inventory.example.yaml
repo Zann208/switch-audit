@@ -1,0 +1,9 @@
+# Copy to inventory.yaml (git-ignored). Credentials are NOT stored here:
+#   export SWITCH_USER=admin SWITCH_PASS=... SWITCH_ENABLE=...
+switches:
+  - name: SW1
+    host: 192.168.10.11
+    device_type: cisco_ios
+  - name: SW2
+    host: 192.168.10.12
+    device_type: cisco_ios

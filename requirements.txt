@@ -1,0 +1,4 @@
+netmiko
+ntc-templates
+pyyaml
+pytest
